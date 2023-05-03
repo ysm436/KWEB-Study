@@ -1,0 +1,11 @@
+.chapter .chapter-name {
+    font-weight: bold;
+}
+
+#current-chapter .chapter-name {
+    color: red;
+}
+
+.chapter .horizontal-lists {
+    color: blue;
+}
