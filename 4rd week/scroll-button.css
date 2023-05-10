@@ -1,0 +1,23 @@
+#scroll-button {
+    background-color: blue;
+
+    width: 35px;
+    height: 55px;
+
+    border-radius: 15px;
+
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+    text-align: center;
+}
+
+#scroll-button a #go-top-button {
+    border-bottom: 1px solid white;
+}
+
+#scroll-button a div {
+    height: 26.5px;
+    color: white;
+}
