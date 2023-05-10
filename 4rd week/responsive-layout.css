@@ -1,0 +1,76 @@
+.header {
+    background-color: pink;
+    border: 1.5px solid rgb(255, 168, 168);
+    margin-bottom: 15px;
+}
+
+
+
+.body .navbar {
+    background-color: yellow;
+    border: 1.5px solid rgb(252, 210, 103);
+}
+
+.body .content {
+    background-color: skyblue;
+    border: 1.5px solid rgb(56, 199, 255);
+}
+
+.footer {
+    background-color: lightgreen;
+    border: 1.5px solid rgb(78, 250, 78);
+}
+
+@media screen and (min-width: 800px) {
+    .header {
+        height: 100px;
+        width: 100%;
+    }
+
+    .body {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .body .navbar {
+        display: inline-block;
+        height: 800px;
+        width: 20%;
+    }
+
+    .body .content {
+        display: inline-block;
+        height: 800px;
+        width: 78%;
+    }
+
+    .footer {
+        height: 200px;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .header {
+        height: 100px;
+        width: 100%;
+    }
+
+    .body .navbar {
+        height: 800px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .body .content {
+        height: 800px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .footer {
+        height: 200px;
+        width: 100%;
+    }
+}
